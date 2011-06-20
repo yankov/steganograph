@@ -1,9 +1,10 @@
 =Steganography
 
-<tt>Steganography is the art and science of writing hidden messages in such a way that no one, apart from the sender and intended recipient, suspects the existence of the message, a form of security through obscurity.</tt>
+<em>Steganography is the art and science of writing hidden messages in such a way that no one, apart from the sender and intended recipient, suspects the existence of the message, a form of security through obscurity.</em>
+{Wiki article}[http://en.wikipedia.org/wiki/Steganography]
 
 This is a simple class to encode any message in the BMP file.
-It takes each bit of the message and save it in the +least significant bit+ of the image array,
+It takes each bit of the message and save it in the <b>least significant bit</b> of the image array,
 so that an output image looks exactly the same as original one and have the same size.     
 
 It was a solution to puzzle #6 from puzzlenode.  
